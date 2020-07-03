@@ -237,7 +237,8 @@
             <property name="tabWidth" value="4"/>
         </module>
         <module name="AbbreviationAsWordInName">
-            <property name="ignoreFinal" value="true"/>
+            <property name="severity" value="info"/>
+            <property name="ignoreFinal" value="false"/>
             <property name="allowedAbbreviationLength" value="1"/>
             <property name="tokens"
              value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,
